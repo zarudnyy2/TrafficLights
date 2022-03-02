@@ -35,6 +35,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="changeLightButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uui-xB-bzj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -65,6 +68,12 @@
                             <constraint firstItem="R5b-dj-wRi" firstAttribute="width" secondItem="lEX-Sc-Y03" secondAttribute="width" id="yKK-dq-mQ1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLight" destination="8yg-l7-zEj" id="37O-5L-zLK"/>
+                        <outlet property="lightButton" destination="aDX-SQ-Lp0" id="qDk-Lf-vFB"/>
+                        <outlet property="redLight" destination="lEX-Sc-Y03" id="xIL-3O-cnY"/>
+                        <outlet property="yellowLight" destination="R5b-dj-wRi" id="0bk-ZR-RiR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
